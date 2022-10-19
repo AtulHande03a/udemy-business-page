@@ -16,29 +16,53 @@
   </head>
   <body>
     <header class="header-container">
-      <div class="side-padding">
-        <!-- <div>
-          <button class="menu hide"><i class="fa fa-bars"></i></button>
-        </div> -->
+      <div class="header-desktop">
+        <div class="side-padding">
+          <div class="logo-container">
+            <h3 class="logo"><span>Brand</span><span>Name</span></h3>
+          </div>
+          <div class="nav-links">
+            <ul class="nav-links-ul">
+              <li class="px-2 links">What we do</li>
+              <li class="px-2 links">How we do it</li>
+              <li class="px-2 links">Resources</li>
+              <li class="px-2 links">Plan</li>
+            </ul>
+          </div>
+          <div class="btn-container">
+            <ul class="btn-links">
+              <li class="links">Login</li>
+              <li><button class="btn-start">Get Started</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-mobile">
+        <div class="header-menu-icon">
+          <button class="menu"><i class="fa fa-bars"></i></button>
+        </div>
         <div class="logo-container">
           <h3 class="logo"><span>Brand</span><span>Name</span></h3>
         </div>
-        <div class="nav-links">
-          <ul class="nav-links-ul">
-            <li class="px-2 links">What we do</li>
-            <li class="px-2 links">How we do it</li>
-            <li class="px-2 links">Resources</li>
-            <li class="px-2 links">Plan</li>
-          </ul>
-        </div>
-        <div class="btn-container">
-          <ul class="btn-links">
-            <li class="links">Login</li>
-            <li><button class="btn-start">Get Started</button></li>
-          </ul>
-        </div>
       </div>
-      <!-- <aside class="sidebar"></aside> -->
+      <aside class="sidebar hide">
+        <div>
+          <button class="close">
+            <i class="fa fa-times"></i>
+          </button>
+        </div>
+        <div class="sidebar-list">
+          <ul>
+            <li>What we do</li>
+            <li>How we do it</li>
+            <li>Resources</li>
+            <li>Plans</li>
+            <li>Login</li>
+            <li>Get Started</li>
+          </ul>
+        </div>
+      </aside>
     </header>
     <main>
       <div class="side-padding main-container">
@@ -218,5 +242,6 @@
         </div>
       </div>
     </footer>
+    <script src="/app.js"></script>
   </body>
 </html>
